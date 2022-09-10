@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+  </style>
+</head>
+<body>
+  <h1>Form Page</h1>
+<!--  
+  <img src="images/bg-card-front.png" alt="" id="card1" class="card"></img>
+  <img src="images/bg-card-back.png" alt="" id="card2" class="card"> -->
+
+  <div class="card" id="card1">
+    <p class="bigc"></p>
+    <p class="smallc"></p>
+    <p class="num">0000 0000 0000 0000</p>
+    <p class="name">JANE APPLESEED</p>
+    <p class="exp">00/00</p>
+  </div>
+  <div class="card" id="card2"><p>OOO</p></div>
+
+  <div class="container">
+    <img src="images/bg-main-desktop.png" alt="">
+    <div class="content">
+      <form action="after.html">
+
+        <div class="group">
+          <label for="name">CARDHOLDER NAME</label>
+        <input name="name" id="name" type="text" placeholder=" e.g. Jane Appleseed" required>
+        </div>
+        <div class="group">
+          <label for="cnumber">CARD NUMBER</label>
+        <input name="cnumber" id="cnumber" type="number" placeholder=" e.g. 1234 5678 9123 0000" required minlength=16>
+        </div>
+
+        <div class="lastl">
+          <label for="exp">EXP.DATE(MM/YY)</label>
+          <label for="CVC">CVC</label>
+        </div>
+        <div class="last">
+          
+        <input type="number" id="exp" placeholder=" MM" required>
+        <input type="number" id="exp" placeholder=" YY" required>
+
+        
+        <input type="number" id="CVC" placeholder=" e.g. 123" required>
+        </div>
+        
+
+        <div class="group">
+          <input type="submit" value="Confirm" id="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+ 
+</body>
+</html>

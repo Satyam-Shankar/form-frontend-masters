@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 15px;
+    
+}
+.container
+{
+    display: flex;
+}
+
+label
+{
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+.group,.last
+{
+    margin-bottom: 20px;
+}
+.content
+{
+    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+input
+{
+    border-radius: 5px;
+    border: 1px solid #e8e3e1;
+    height: 35px;
+    width: calc(100% + 2em);
+}
+::placeholder
+{
+    font-weight: 100;
+    
+}
+.lastl,.last{
+    display: flex;
+    gap: 20px;
+}
+.lastl
+{
+    gap: 80px;
+}
+.last input
+{
+    width: 80px;
+}
+input[type="submit"]
+{
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    border-radius: 8px;
+    margin: 30px 0;
+    height: 45px;
+}
+.card
+{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    color: white;
+}
+#card1
+{
+    background: url('images/bg-card-front.png');
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 10%;
+}
+#card2
+{
+    background: url('images/bg-card-back.png');
+    background-repeat: no-repeat;
+    top: 60%;
+    left: 20%;
+    
+}
+#card2 p
+{
+    position: absolute;
+    top: 37%;
+    right: 23%;
+    transform: translate();
+    
+}
+#card1 p
+{
+    position: absolute;
+}
+p.name
+{
+    bottom: 23%;
+    left: 3%;
+}
+p.exp
+{
+    bottom: 23%;
+    right: 12.7%;
+}
+p.num
+{
+    font-size: 40px;
+    top: 40%;
+
+    left: 6%;
+}
+p.bigc
+{
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    top: 2%;
+    left: 2%;
+}
+p.smallc
+{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: aliceblue;
+    top: 4%;
+    left: 10%;
+}
